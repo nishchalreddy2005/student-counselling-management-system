@@ -1,0 +1,127 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+ 
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<display-name>LoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.controllers.LoginServlet</servlet-class>
+  	
+  </servlet>
+  <servlet>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<display-name>LogoutServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.controllers.LogoutServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>ViewEmployeeServlet</servlet-name>
+  	<display-name>ViewEmployeeServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.controllers.ViewEmployeeServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddEmployeeServlet</servlet-name>
+  	<display-name>AddEmployeeServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.controllers.AddEmployeeServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UpdateEmployeeServlet</servlet-name>
+  	<display-name>UpdateEmployeeServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.controllers.UpdateEmployeeServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteEmployeeServlet</servlet-name>
+  	<display-name>DeleteEmployeeServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.controllers.DeleteEmployeeServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddMeterServlet</servlet-name>
+  	<display-name>AddMeterServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.controllers.AddMeterServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddBillServlet</servlet-name>
+  	<display-name>AddBillServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.controllers.AddBillServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SignUpServlet</servlet-name>
+  	<display-name>SignUpServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.controllers.SignUpServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AdminHomeServlet</servlet-name>
+  	<display-name>AdminHomeServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.controllers.AdminHomeServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>FetchStateRatesServlet</servlet-name>
+  	<display-name>FetchStateRatesServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.controllers.FetchStateRatesServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>ViewEmployeeServlet</servlet-name>
+  	<url-pattern>/ViewEmployeeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddEmployeeServlet</servlet-name>
+  	<url-pattern>/AddEmployeeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateEmployeeServlet</servlet-name>
+  	<url-pattern>/UpdateEmployeeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteEmployeeServlet</servlet-name>
+  	<url-pattern>/DeleteEmployeeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddMeterServlet</servlet-name>
+  	<url-pattern>/AddMeterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddBillServlet</servlet-name>
+  	<url-pattern>/AddBillServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SignUpServlet</servlet-name>
+  	<url-pattern>/SignUpServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AdminHomeServlet</servlet-name>
+  	<url-pattern>/AdminHomeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>FetchStateRatesServlet</servlet-name>
+  	<url-pattern>/FetchStateRatesServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+  
+</web-app>
